@@ -4,6 +4,30 @@ body {
   color: #123524; /* deep green */
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
   line-height: 1.7;
+
+  body {
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+/* DARK MODE */
+body.dark {
+  background: #121212;
+  color: #eaeaea;
+}
+
+body.dark .top-nav {
+  background: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+body.dark .top-nav a {
+  color: #eaeaea;
+}
+
+body.dark button {
+  background: #333;
+  color: #fff;
+}
 }
 
 /* Main layout container */
