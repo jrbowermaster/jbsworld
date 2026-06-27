@@ -172,6 +172,15 @@ a:visited {
   color: #5f8e73;
 }
 
+h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
+
 /* =========================
    LISTS
 ========================= */
