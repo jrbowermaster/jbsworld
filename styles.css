@@ -37,12 +37,8 @@ body {
   margin: 0;
 
   background:
-    linear-gradient(
-      to bottom,
-      #f8faf8,
-      var(--bg)
-    );
-
+    radial-gradient(circle at top, #4b5563 0%, #1f2937 45%, #0b0b0b 100%);
+   
   color: var(--text);
 
   font-family:
