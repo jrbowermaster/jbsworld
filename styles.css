@@ -292,3 +292,19 @@ body.dark a:hover {
 body.dark button {
   background: #2f7d4f;
 }
+
+body::before {
+  content: "";
+
+  position: fixed;
+  inset: 0;
+
+  pointer-events: none;
+
+  opacity: .05;
+
+  background-image:
+    radial-gradient(circle, white 1px, transparent 1px);
+
+  background-size: 18px 18px;
+}
